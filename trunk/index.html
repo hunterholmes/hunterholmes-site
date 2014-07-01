@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)http://getbootstrap.com/examples/carousel/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Hunter Holmes, In-Home Guitar Lessons in Newton / Wellesley, MA">
+    <meta name="keywords" content="guitar lessons,in home lessons,newton,wellesley" />
+    <meta name="robots" content="index,follow" />
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 
-    <title>Hunter Holmes - Music Instructor</title>
+    <title>Hunter Holmes: In-home guitar lessons in Newton and Wellesley, MA</title>
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/my.css" rel="stylesheet">
 
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -26,7 +30,7 @@
   <style type="text/css"></style><style id="holderjs-style" type="text/css"></style></head>
 <!-- NAVBAR
 ================================================== -->
-  <body style="">
+  <body id="top" style="">
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -39,25 +43,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="http://getbootstrap.com/examples/carousel/#">Hunter Holmes: Music Instructor</a>
+              <p class="navbar-brand holmes-brand"><span class="">Hunter Holmes: Music Instructor</span></p>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="http://getbootstrap.com/examples/carousel/#">Home</a></li>
-                <li class="dropdown">
-                  <a href="http://getbootstrap.com/examples/carousel/#" class="dropdown-toggle" data-toggle="dropdown">Lessons <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Guitar Lessons</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Drum Lessons</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Bass Lessons</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Separated link</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">One more separated link</a></li>
-                  </ul>
-                </li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#about">About Me</a></li>
-                <li><a href="http://getbootstrap.com/examples/carousel/#contact">Contact</a></li>
+                <li><a data-scroll href="#moreme">About Me</a></li>
+                <li><a data-scroll href="#mylessons">My Lessons</a></li>
+                <li><a data-scroll href="#students">Testimonials</a></li>                
+                <li><a data-scroll href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -72,44 +65,44 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
       </ol>
       <div class="carousel-inner">
-        <div class="item">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Over 20 Years of Teaching Experience.</h1>
-              <p>I've been at this a long time. My lessons are unique. If there's one thing I'm not, it's a "professional page turner," and I've got a long list of students willing to testify to my abilities as a music instructor.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">See Testimonials</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Berklee Graduate.</h1>
-              <p>I performed for the President of the United States, Bill Clinton, at his inauguration January of 1993. I've also performed at the Parker House Hotel, Veronique, Zanzibar, among many, many more places!</p>
-              <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">More About Me</a></p>
-            </div>
-          </div>
-        </div>
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+          <img alt="First slide" src="/assets/img/gb-h01-wide-tu.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Contact Me Today!</h1>
+              <h1>Over 20 Years of Teaching Experience</h1>
+              <p>I've been at this a long time. My lessons are unique. If there's one thing I'm not, it's a "professional page turner", and I've got a long list of happy students to prove it.</p>
+              <p><a class="btn btn-lg btn-primary" data-scroll href="#students" role="button">See Testimonials</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img alt="Second slide" src="/assets/img/hunter-stage-1-wide2.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Berklee Grad and Multi-Instrumentalist Performer</h1>
+              <p>I performed for the President of the United States, Bill Clinton, at his inauguration January of 1993. I've also performed at the Parker House Hotel, Veronique, Zanzibar, and many, many more places!</p>
+              <p><a class="btn btn-lg btn-primary" data-scroll href="#moreme" role="button">More About Me</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img alt="Third slide" src="/assets/img/gb11-2-wide.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Contact Me Today</h1>
               <p>If you or your child is interested in learning guitar, drums, or bass, I'm up to the task. Give me a call and we'll work out a time.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com/examples/carousel/#" role="button">Get in Touch</a></p>
+              <p><a class="btn btn-lg btn-primary" data-scroll href="#contact" role="button">Get in Touch</a></p>
             </div>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
 
@@ -126,58 +119,112 @@
           <img class="" data-src="holder.js/150x150" alt="150x150" src="/assets/img/stratocaster.svg" style="width: 150px; height: 150px;">
           <h2>Guitar Lessons</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
+          <p><a class="btn btn-default" data-scroll href="#contact" role="button">Contact me »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="" data-src="holder.js/160x150" alt="160x150" src="/assets/img/drums.svg" style="width: 150px; height: 150px;">
           <h2>Drum Lessons</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
+          <p><a class="btn btn-default" data-scroll href="#contact" role="button">Contact me »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="" data-src="holder.js/150x140" alt="150x150" src="/assets/img/bass.svg" style="width: 150px; height: 150px;">
           <h2>Bass Lessons</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
+          <p><a class="btn btn-default" data-scroll href="#contact" role="button">Contact me »</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="/assets/img/flyer.jpg">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
+      <hr id="moreme" class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img  class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="/assets/img/hunter_drums.jpg">
+          <img class="img-responsive" alt="me on drums" src="/assets/img/hunter-drums-2.jpg">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <h2 class="featurette-heading">More about me, <span class="text-muted">Hunter Holmes!</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <p class="pull-right"><a data-scroll href="#top">Back to top</a></p>
+      <hr id="mylessons" class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <h2 class="featurette-heading">My lessons are <span class="text-muted">unique</span> and <span class="text-muted">effective</span>.</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
+          <img class="featurette-image img-responsive" alt="500x500" src="/assets/img/gb02-2-crop.jpg">
+        </div>
+      </div>
+
+      <p><a data-scroll href="#top">Back to top</a></p>
+      <hr id="students" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gm01-crop.jpg">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">I have <span class="text-muted">20 years</span> worth of satisfied students, both young and old.</h2>
+          <p class="lead">Don't believe me? Have a look at some testimonials below. I've watched many kids grow up while learning guitar with me. Nothing is more satisfying than helping guide someone from complete beginner to pro.</p>
+        </div>
+      </div>
+      <div class="row featurette featurette-2">
+        <div class="col-md-4">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gb07-1.jpg">
+        </div>
+        <div class="col-md-4">
+          <h2 class="featurette-heading"><span class="text-muted">Evan</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-4">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gb07-3.jpg">
+        </div>
+      </div>
+      <div class="row featurette featurette-2">
+        <div class="col-md-4">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gg01-young.jpg">
+        </div>
+        <div class="col-md-4">
+          <h2 class="featurette-heading"><span class="text-muted">Sarah</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-4">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gg01-2.jpg">
+        </div>
+      </div>
+       <div class="row featurette featurette-2">
+        <div class="col-md-4">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gb06-young.jpg">
+        </div>
+        <div class="col-md-4">
+          <h2 class="featurette-heading"><span class="text-muted">John</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-4">
+          <img  class="featurette-image img-responsive" alt="guitar student" src="/assets/img/gb06.jpg">
+        </div>
+      </div>
+
+
+
+      <p class="pull-right"><a data-scroll href="#top">Back to top</a></p>
+      <hr id="contact" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Contact me about lessons today!<span class="text-muted"></span></h2>
+          <p class="lead">For more information, send me an email at <a href="mailto:hunterholmes@earthlink.net">hunterholmes@earthlink.net</a> or give me a call at (508) 650-0560. Let me know whether you're interested in guitar, drums, or bass and what days and times might work for you. I'm sure we can work something out!</p>
+          <p class="lead">I'm willing to travel anywhere in Newton, Wellesley, and Natick as well as some parts of surrounding towns.</p>
+        </div>
+        <div class="col-md-5">
+          <img style="border-radius:0" class="featurette-image img-responsive" alt="500x500" src="/assets/img/flyer.jpg">
         </div>
       </div>
 
@@ -188,8 +235,8 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="http://getbootstrap.com/examples/carousel/#">Back to top</a></p>
-        <p>© 2014 Company, Inc. · <a href="http://getbootstrap.com/examples/carousel/#">Privacy</a> · <a href="http://getbootstrap.com/examples/carousel/#">Terms</a></p>
+        <p class="pull-right"><a data-scroll href="#top">Back to top</a></p>
+        <p>© 2014 Hunter Holmes</p>
       </footer>
 
     </div><!-- /.container -->
@@ -201,6 +248,9 @@
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/docs.min.js"></script>
-  
+    <script src="/assets/js/smooth-scroll.js"></script>
+    <script>
+    smoothScroll.init();
+    </script>
 
 </body></html>
