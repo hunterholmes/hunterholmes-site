@@ -132,18 +132,6 @@ body {
     padding-left:  0;
   }
 
-  .holmes-brand {
-    margin-bottom:0;
-  }
-
-  .holmes-brand span{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 22px;
-    text-shadow:1px 1px 2px #aaa;
-    color:#444;
-    margin-bottom:0;
-  }
-
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
