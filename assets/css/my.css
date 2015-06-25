@@ -22,9 +22,28 @@
     padding-top:130px;
   }
 
-.social-buttons {
-  margin-top: 12px;
-  padding-right: 30px;
+#social-buttons {
+  padding-right: 25px;
+}
+
+#social-buttons a {
+  padding-left: 0;
+}
+
+#sc-button a {
+  color:#ff8800;
+}
+
+#sc-button a:hover {
+  text-shadow: 0px 0px 2px #ff8800;
+}
+
+#fb-button a {
+  color:#3b5998;
+}
+
+#fb-button a:hover {
+  text-shadow: 0px 0px 2px #3b5998;
 }
 
 .lessonshead h1{
