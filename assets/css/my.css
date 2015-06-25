@@ -27,6 +27,10 @@
   padding-right: 30px;
 }
 
-h1.lessonshead {
+.lessonshead h1{
   font-family: 'Indie Flower', cursive;
+}
+
+.lessonshead h3{
+  font-weight:200;
 }
