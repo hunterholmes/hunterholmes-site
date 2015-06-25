@@ -3,7 +3,7 @@
   }
 
   .holmes-brand span{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Bad Script', cursive;
     font-size: 22px;
     text-shadow:1px 1px 2px #aaa;
     color:#444;
@@ -29,6 +29,12 @@
 
 .lessonshead h1{
   font-family: 'Bad Script', cursive;
+  font-size: 63px;
+}
+
+.lessonshead h2{
+  font-family: 'Bad Script', cursive;
+  font-size: 48px;
 }
 
 .lessonshead h3{
