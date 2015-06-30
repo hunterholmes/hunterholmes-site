@@ -1,3 +1,7 @@
+.bodytext p{
+    color:#000;
+  }
+
   .holmes-brand {
     margin-bottom:0;
   }
@@ -58,4 +62,8 @@
 
 .lessonshead h3{
   font-weight:200;
+}
+
+.marketingfont div div h2 {
+  
 }
